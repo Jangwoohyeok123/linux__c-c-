@@ -38,7 +38,6 @@ void main(void) {
     printf("=> 기본 가로이동 이중 loop\n");
     rowLoop();
     printf("\n");
-
     printf("=> 세로이동 loop\n");
     columnLoop();  // 2중 for
     printf("\n");
@@ -48,3 +47,7 @@ void main(void) {
     printf("\n");
     return;
 }
+
+// for(초기조건, 개수를 이용한 조건, 증감식)
+// 1 부터 시작할 경우 '<= 개수' 를 조건식으로 이용
+// 0 부터 시작할 경우 '< 개수' 를 조건식으로 이용 
