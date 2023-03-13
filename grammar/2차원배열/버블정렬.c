@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-
-    int array[10] = { 1, 5, 7, 9, 10, -2, -999, 15, 23,3 };
+    int array[10] = {1, 5, 7, 9, 10, -2, -999, 15, 23, 3};
     for (int i = 0; i < 10; i++) {
         int min = array[i];
         int minIndex = i;
@@ -11,6 +10,7 @@ int main(void) {
             if (min > array[j]) {
                 min = array[j];
                 minIndex = j;
+                printf("hello");
             }
         }
 
